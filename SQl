@@ -1,0 +1,26 @@
+/* INNERJOIN
+select table1.column1, table2.column1,table1.column2
+from table1
+InnerJoin table 2 on Table1.primaryKey =table2.primaryKey
+InnerJoin Table 3 on Table.primarykey =table3.primarykey
+
+LEFT JOIN/ Right join
+SELECT table1.column1, table2.column1,table1.column2
+FROM table1
+LEFT JOIN table2
+ON table1.column_name = table2.column_name;
+
+Full outer join
+
+select table1.column1, table2.column1,table1.column2
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name
+WHERE condition
+
+The GROUP BY statement is often used with aggregate functions
+(COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+
+The HAVING clause was added to SQL because the WHERE keyword cannot
+be used with aggregate functions.
+
